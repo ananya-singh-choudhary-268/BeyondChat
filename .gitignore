@@ -1,0 +1,55 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Laravel
+# =========================
+/backend/vendor/
+/backend/storage/logs/
+/backend/storage/framework/
+/backend/bootstrap/cache/
+
+# SQLite database (optional: keep if you want to commit DB)
+/backend/database/*.sqlite
+
+# =========================
+# Node.js / React
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/frontend/node_modules/
+/ai-service/node_modules/
+
+# Build outputs
+/frontend/build/
+/ai-service/dist/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# IntelliJ / PHPStorm
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Misc
+# =========================
+.cache/
+.tmp/
